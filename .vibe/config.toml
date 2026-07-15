@@ -1,0 +1,15 @@
+[tools.task]
+permission = "ask"
+allowlist = [
+    "explore",
+]
+
+[tools.bash]
+allowlist = [
+    "cd",
+    "git add",
+    "git branch",
+    "git commit",
+    "git log",
+    "git status",
+]
